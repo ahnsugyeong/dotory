@@ -18,7 +18,7 @@ function Header() {
         
           <li className = "nav-item"><Link to="/todolist">ToDoList</Link></li>
           <li className = "nav-item"><Link to="/diary">Diary</Link></li>
-          <li className = "nav-item"><Link to="/pocket">Pocket</Link></li>        
+          <li className = "nav-item"><Link to="/new-pocket">Pocket</Link></li>        
   
         </ul>
       </nav>

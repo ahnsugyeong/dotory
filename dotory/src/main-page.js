@@ -1,7 +1,7 @@
 import React from 'react';
 import  {Route} from 'react-router-dom';
 import {Routes} from 'react-router-dom';
-import PocketPage from './pocket';
+import PocketPage from './new-pocket';
 import Header from './components/header';
 import ToDoList from './todolist-page';
 import './main-page.css';
@@ -18,7 +18,7 @@ function MainPage() {
         <Route exact path="/" element={<Calendar/>}/>
         <Route exact path="/todolist" element={<ToDoList/>}/>
         <Route exact path="/diary" element={<DiaryPage/>}/>
-        <Route exact path="/pocket" element={<PocketPage/>}/>
+        <Route exact path="/new-pocket" element={<PocketPage/>}/>
           
       </Routes>
 
